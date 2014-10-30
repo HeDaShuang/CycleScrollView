@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFEB4ED1A00910F004BDDE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEB4EC1A00910F004BDDE0 /* main.m */; };
+		FAFEB4F01A00910F004BDDE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEB4EF1A00910F004BDDE0 /* AppDelegate.m */; };
+		FAFEB4F31A00910F004BDDE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEB4F21A00910F004BDDE0 /* ViewController.m */; };
+		FAFEB4F61A00910F004BDDE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB4F41A00910F004BDDE0 /* Main.storyboard */; };
+		FAFEB4F81A00910F004BDDE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB4F71A00910F004BDDE0 /* Images.xcassets */; };
+		FAFEB4FB1A00910F004BDDE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB4F91A00910F004BDDE0 /* LaunchScreen.xib */; };
+		FAFEB5071A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEB5061A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.m */; };
+		FAFEB5181A009126004BDDE0 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB5101A009126004BDDE0 /* 11.jpg */; };
+		FAFEB5191A009126004BDDE0 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB5111A009126004BDDE0 /* 22.jpg */; };
+		FAFEB51A1A009126004BDDE0 /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB5121A009126004BDDE0 /* 33.jpg */; };
+		FAFEB51B1A009126004BDDE0 /* 44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB5131A009126004BDDE0 /* 44.jpg */; };
+		FAFEB51C1A009126004BDDE0 /* 55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFEB5141A009126004BDDE0 /* 55.jpg */; };
+		FAFEB51D1A009126004BDDE0 /* AdvertisementScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEB5161A009126004BDDE0 /* AdvertisementScrollerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFEB5011A00910F004BDDE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFEB4DF1A00910F004BDDE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFEB4E61A00910F004BDDE0;
+			remoteInfo = InfiniteScrollAdColumnDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFEB4E71A00910F004BDDE0 /* InfiniteScrollAdColumnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrollAdColumnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFEB4EB1A00910F004BDDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFEB4EC1A00910F004BDDE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAFEB4EE1A00910F004BDDE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAFEB4EF1A00910F004BDDE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAFEB4F11A00910F004BDDE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAFEB4F21A00910F004BDDE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAFEB4F51A00910F004BDDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFEB4F71A00910F004BDDE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAFEB4FA1A00910F004BDDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAFEB5001A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollAdColumnDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFEB5051A00910F004BDDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFEB5061A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollAdColumnDemoTests.m; sourceTree = "<group>"; };
+		FAFEB5101A009126004BDDE0 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		FAFEB5111A009126004BDDE0 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		FAFEB5121A009126004BDDE0 /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
+		FAFEB5131A009126004BDDE0 /* 44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.jpg; sourceTree = "<group>"; };
+		FAFEB5141A009126004BDDE0 /* 55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 55.jpg; sourceTree = "<group>"; };
+		FAFEB5151A009126004BDDE0 /* AdvertisementScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisementScrollerView.h; sourceTree = "<group>"; };
+		FAFEB5161A009126004BDDE0 /* AdvertisementScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisementScrollerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFEB4E41A00910F004BDDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFEB4FD1A00910F004BDDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFEB4DE1A00910F004BDDE0 = {
+			isa = PBXGroup;
+			children = (
+				FAFEB4E91A00910F004BDDE0 /* InfiniteScrollAdColumnDemo */,
+				FAFEB5031A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests */,
+				FAFEB4E81A00910F004BDDE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFEB4E81A00910F004BDDE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEB4E71A00910F004BDDE0 /* InfiniteScrollAdColumnDemo.app */,
+				FAFEB5001A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFEB4E91A00910F004BDDE0 /* InfiniteScrollAdColumnDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEB51F1A009293004BDDE0 /* Advertisement */,
+				FAFEB51E1A009286004BDDE0 /* images */,
+				FAFEB4EE1A00910F004BDDE0 /* AppDelegate.h */,
+				FAFEB4EF1A00910F004BDDE0 /* AppDelegate.m */,
+				FAFEB4F11A00910F004BDDE0 /* ViewController.h */,
+				FAFEB4F21A00910F004BDDE0 /* ViewController.m */,
+				FAFEB4F41A00910F004BDDE0 /* Main.storyboard */,
+				FAFEB4F71A00910F004BDDE0 /* Images.xcassets */,
+				FAFEB4F91A00910F004BDDE0 /* LaunchScreen.xib */,
+				FAFEB4EA1A00910F004BDDE0 /* Supporting Files */,
+			);
+			path = InfiniteScrollAdColumnDemo;
+			sourceTree = "<group>";
+		};
+		FAFEB4EA1A00910F004BDDE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEB4EB1A00910F004BDDE0 /* Info.plist */,
+				FAFEB4EC1A00910F004BDDE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFEB5031A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEB5061A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.m */,
+				FAFEB5041A00910F004BDDE0 /* Supporting Files */,
+			);
+			path = InfiniteScrollAdColumnDemoTests;
+			sourceTree = "<group>";
+		};
+		FAFEB5041A00910F004BDDE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEB5051A00910F004BDDE0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFEB51E1A009286004BDDE0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEB5101A009126004BDDE0 /* 11.jpg */,
+				FAFEB5111A009126004BDDE0 /* 22.jpg */,
+				FAFEB5121A009126004BDDE0 /* 33.jpg */,
+				FAFEB5131A009126004BDDE0 /* 44.jpg */,
+				FAFEB5141A009126004BDDE0 /* 55.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FAFEB51F1A009293004BDDE0 /* Advertisement */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEB5151A009126004BDDE0 /* AdvertisementScrollerView.h */,
+				FAFEB5161A009126004BDDE0 /* AdvertisementScrollerView.m */,
+			);
+			name = Advertisement;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFEB4E61A00910F004BDDE0 /* InfiniteScrollAdColumnDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFEB50A1A00910F004BDDE0 /* Build configuration list for PBXNativeTarget "InfiniteScrollAdColumnDemo" */;
+			buildPhases = (
+				FAFEB4E31A00910F004BDDE0 /* Sources */,
+				FAFEB4E41A00910F004BDDE0 /* Frameworks */,
+				FAFEB4E51A00910F004BDDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteScrollAdColumnDemo;
+			productName = InfiniteScrollAdColumnDemo;
+			productReference = FAFEB4E71A00910F004BDDE0 /* InfiniteScrollAdColumnDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFEB4FF1A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFEB50D1A00910F004BDDE0 /* Build configuration list for PBXNativeTarget "InfiniteScrollAdColumnDemoTests" */;
+			buildPhases = (
+				FAFEB4FC1A00910F004BDDE0 /* Sources */,
+				FAFEB4FD1A00910F004BDDE0 /* Frameworks */,
+				FAFEB4FE1A00910F004BDDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFEB5021A00910F004BDDE0 /* PBXTargetDependency */,
+			);
+			name = InfiniteScrollAdColumnDemoTests;
+			productName = InfiniteScrollAdColumnDemoTests;
+			productReference = FAFEB5001A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFEB4DF1A00910F004BDDE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Anslink;
+				TargetAttributes = {
+					FAFEB4E61A00910F004BDDE0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FAFEB4FF1A00910F004BDDE0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FAFEB4E61A00910F004BDDE0;
+					};
+				};
+			};
+			buildConfigurationList = FAFEB4E21A00910F004BDDE0 /* Build configuration list for PBXProject "InfiniteScrollAdColumnDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFEB4DE1A00910F004BDDE0;
+			productRefGroup = FAFEB4E81A00910F004BDDE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFEB4E61A00910F004BDDE0 /* InfiniteScrollAdColumnDemo */,
+				FAFEB4FF1A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFEB4E51A00910F004BDDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFEB51B1A009126004BDDE0 /* 44.jpg in Resources */,
+				FAFEB5191A009126004BDDE0 /* 22.jpg in Resources */,
+				FAFEB4F61A00910F004BDDE0 /* Main.storyboard in Resources */,
+				FAFEB4FB1A00910F004BDDE0 /* LaunchScreen.xib in Resources */,
+				FAFEB51A1A009126004BDDE0 /* 33.jpg in Resources */,
+				FAFEB4F81A00910F004BDDE0 /* Images.xcassets in Resources */,
+				FAFEB5181A009126004BDDE0 /* 11.jpg in Resources */,
+				FAFEB51C1A009126004BDDE0 /* 55.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFEB4FE1A00910F004BDDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFEB4E31A00910F004BDDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFEB4F31A00910F004BDDE0 /* ViewController.m in Sources */,
+				FAFEB4F01A00910F004BDDE0 /* AppDelegate.m in Sources */,
+				FAFEB51D1A009126004BDDE0 /* AdvertisementScrollerView.m in Sources */,
+				FAFEB4ED1A00910F004BDDE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFEB4FC1A00910F004BDDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFEB5071A00910F004BDDE0 /* InfiniteScrollAdColumnDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFEB5021A00910F004BDDE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFEB4E61A00910F004BDDE0 /* InfiniteScrollAdColumnDemo */;
+			targetProxy = FAFEB5011A00910F004BDDE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFEB4F41A00910F004BDDE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFEB4F51A00910F004BDDE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFEB4F91A00910F004BDDE0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFEB4FA1A00910F004BDDE0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFEB5081A00910F004BDDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAFEB5091A00910F004BDDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFEB50B1A00910F004BDDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfiniteScrollAdColumnDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAFEB50C1A00910F004BDDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfiniteScrollAdColumnDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAFEB50E1A00910F004BDDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfiniteScrollAdColumnDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteScrollAdColumnDemo.app/InfiniteScrollAdColumnDemo";
+			};
+			name = Debug;
+		};
+		FAFEB50F1A00910F004BDDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfiniteScrollAdColumnDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteScrollAdColumnDemo.app/InfiniteScrollAdColumnDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFEB4E21A00910F004BDDE0 /* Build configuration list for PBXProject "InfiniteScrollAdColumnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFEB5081A00910F004BDDE0 /* Debug */,
+				FAFEB5091A00910F004BDDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFEB50A1A00910F004BDDE0 /* Build configuration list for PBXNativeTarget "InfiniteScrollAdColumnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFEB50B1A00910F004BDDE0 /* Debug */,
+				FAFEB50C1A00910F004BDDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFEB50D1A00910F004BDDE0 /* Build configuration list for PBXNativeTarget "InfiniteScrollAdColumnDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFEB50E1A00910F004BDDE0 /* Debug */,
+				FAFEB50F1A00910F004BDDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFEB4DF1A00910F004BDDE0 /* Project object */;
+}
